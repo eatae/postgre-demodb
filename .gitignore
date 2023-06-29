@@ -1,0 +1,38 @@
+
+###> symfony/framework-bundle ###
+/.env
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+
+.DS_Store
+node_modules
+.env
+
+.idea
+/.idea
+/.vscode
+/.vagrant
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+db_data/*
+db_data
+es_data
+nginx_fpm_postgres_xdebug/db_data/*
+nginx_php-fpm_mysql/db/*
+
+/docker/demo-medium.sql
