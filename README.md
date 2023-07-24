@@ -7,6 +7,6 @@ PostgreSQL demo database in a docker container
 3. Перейти в директорию ./docker: <br>
    ```cd ./docker```
 5. В директории ./docker выполнить следующие команды: <br>
-```cp example.env .env```
-```mv demo-medium-*.sql demo-medium.sql```
+```cp example.env .env```<br>
+```mv demo-medium-*.sql demo-medium.sql```<br>
 ```docker-compose up --build -d```
