@@ -10,3 +10,8 @@ PostgreSQL demo database in a docker container
 ```cp example.env .env```<br>
 ```mv demo-medium-*.sql demo-medium.sql```<br>
 ```docker-compose up --build -d```
+
+### connection: <br>
+port: 54321 <br>
+user: postgres <br>
+password: 2222 <br>
